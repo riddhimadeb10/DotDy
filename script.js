@@ -198,14 +198,14 @@ class NumberVisualizer {
                 // Connect
                 try {
                     const ports = await navigator.serial.getPorts();
-                    
+
                     if (ports.length === 0) {
                         statusSpan.textContent = 'No ports found. Opening port selector...';
                         statusSpan.style.color = '#FF9800';
                     }
 
                     this.port = await navigator.serial.requestPort();
-                    
+
                     if (!this.port) {
                         statusSpan.textContent = 'Port selection cancelled';
                         statusSpan.style.color = '#E53935';
