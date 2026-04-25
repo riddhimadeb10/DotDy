@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Visualizer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Number Visualizer</h1>
+
+        <div class="screen-container">
+            <div class="screen" id="screen"></div>
+        </div>
+
+        <div class="controls">
+            <div class="button-grid">
+                <!-- Number buttons 0-9 with digits and dice patterns -->
+                <button class="number-btn" data-number="0"><span class="btn-digit">0</span>
+                    <div class="mini-dice num-0"><span class="dot"></span><span class="dot"></span><span
+                            class="dot"></span><span class="dot"></span><span class="dot"></span><span
+                            class="dot"></span><span class="dot"></span><span class="dot"></span><span
+                            class="dot"></span></div>
+                </button>
+                <button class="number-btn" data-number="1"><span class="btn-digit">1</span>
+                    <div class="mini-dice num-1"><span class="dot"></span><span class="dot"></span><span
+                            class="dot"></span><span class="dot"></span><span class="dot"></span><span
+                            class="dot"></span><span class="dot"></span><span class="dot"></span><span
+                            class="dot"></span></div>
+                </button>
+                <button class="number-btn" data-number="2"><span class="btn-digit">2</span>
+                    <div class="mini-dice num-2"><span class="dot"></span><span class="dot"></span><span
+                            class="dot"></span><span class="dot"></span><span class="dot"></span><span
+                            class="dot"></span><span class="dot"></span><span class="dot"></span><span
+                            class="dot"></span></div>
+                </button>
+                <button class="number-btn" data-number="3"><span class="btn-digit">3</span>
+                    <div class="mini-dice num-3"><span class="dot"></span><span class="dot"></span><span
+                            class="dot"></span><span class="dot"></span><span class="dot"></span><span
+                            class="dot"></span><span class="dot"></span><span class="dot"></span><span
+                            class="dot"></span></div>
+                </button>
+                <button class="number-btn" data-number="4"><span class="btn-digit">4</span>
+                    <div class="mini-dice num-4"><span class="dot"></span><span class="dot"></span><span
+                            class="dot"></span><span class="dot"></span><span class="dot"></span><span
+                            class="dot"></span><span class="dot"></span><span class="dot"></span><span
+                            class="dot"></span></div>
+                </button>
+                <button class="number-btn" data-number="5"><span class="btn-digit">5</span>
+                    <div class="mini-dice num-5"><span class="dot"></span><span class="dot"></span><span
+                            class="dot"></span><span class="dot"></span><span class="dot"></span><span
+                            class="dot"></span><span class="dot"></span><span class="dot"></span><span
+                            class="dot"></span></div>
+                </button>
+                <button class="number-btn" data-number="6"><span class="btn-digit">6</span>
+                    <div class="mini-dice num-6"><span class="dot"></span><span class="dot"></span><span
+                            class="dot"></span><span class="dot"></span><span class="dot"></span><span
+                            class="dot"></span><span class="dot"></span><span class="dot"></span><span
+                            class="dot"></span></div>
+                </button>
+                <button class="number-btn" data-number="7"><span class="btn-digit">7</span>
+                    <div class="mini-dice num-7"><span class="dot"></span><span class="dot"></span><span
+                            class="dot"></span><span class="dot"></span><span class="dot"></span><span
+                            class="dot"></span><span class="dot"></span><span class="dot"></span><span
+                            class="dot"></span></div>
+                </button>
+                <button class="number-btn" data-number="8"><span class="btn-digit">8</span>
+                    <div class="mini-dice num-8"><span class="dot"></span><span class="dot"></span><span
+                            class="dot"></span><span class="dot"></span><span class="dot"></span><span
+                            class="dot"></span><span class="dot"></span><span class="dot"></span><span
+                            class="dot"></span></div>
+                </button>
+                <button class="number-btn" data-number="9"><span class="btn-digit">9</span>
+                    <div class="mini-dice num-9"><span class="dot"></span><span class="dot"></span><span
+                            class="dot"></span><span class="dot"></span><span class="dot"></span><span
+                            class="dot"></span><span class="dot"></span><span class="dot"></span><span
+                            class="dot"></span></div>
+                </button>
+            </div>
+
+            <div class="operation-buttons">
+                <button class="op-btn" id="addBtn">+</button>
+                <button class="op-btn" id="subtractBtn">−</button>
+                <button class="op-btn" id="enterBtn">=</button>
+                <button class="op-btn" id="clearBtn">Clear</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
